@@ -27,7 +27,7 @@ export default {
           },
           {
               'id': 2,
-              'title': 'Call Fraands',
+              'title': 'GitHub Actions are working properly',
               'completed': false
 
           }
