@@ -21,13 +21,13 @@ export default {
       todos: [
           {
               'id': 1,
-              'title': 'Finish building this Vue Todo app',
+              'title': 'Finish building this Vue Todo',
               'completed': false
 
           },
           {
               'id': 2,
-              'title': 'GitHub Actions are working properly',
+              'title': 'Now GitHub Actions are working properly',
               'completed': false
 
           }
