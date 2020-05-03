@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <TodoList>Todo goes here</TodoList>
+  <div id="app" class="container">
+    <img src="./assets/logo.png" class="logo">
+    <TodoList >Todo goes here</TodoList>
   </div>
 </template>
 
@@ -20,9 +20,15 @@ export default {
 
 <style>
 
-. {
+*{
   box-sizing: border-box;
-  
+
+}
+
+.container{
+max-width: 600px;
+margin: 0 auto;
+
 }
 
 #app {
@@ -33,4 +39,11 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.logo{
+  display: block;
+  margin: 20px auto;
+  height: 75px;
+}
+
 </style>
